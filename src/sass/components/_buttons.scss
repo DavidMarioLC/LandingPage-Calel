@@ -1,0 +1,21 @@
+.btn {
+  font: $desktop-buttons;
+  padding: rem(10) rem(24);
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn--primary {
+  background-color: $primary;
+  border-radius: rem(40);
+  color: $white;
+}
+
+.btn--dark {
+  background-color: $black;
+  border-radius: rem(40);
+  color: $white;
+}

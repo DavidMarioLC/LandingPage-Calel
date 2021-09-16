@@ -1,0 +1,10 @@
+.input {
+  border: 1px solid $grey;
+  border-radius: rem(40);
+  display: inline-block;
+}
+
+.input__form {
+  font: $desktop-body3-regular;
+  padding: rem(12) rem(24);
+}

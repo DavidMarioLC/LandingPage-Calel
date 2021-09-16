@@ -1,0 +1,41 @@
+$inter-font-path: "../../fonts";
+
+@font-face {
+  font-family: Inter;
+  src: url("#{$inter-font-path}/Inter-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("#{$inter-font-path}/Inter-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("#{$inter-font-path}/Inter-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("#{$inter-font-path}/Inter-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("#{$inter-font-path}/Inter-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

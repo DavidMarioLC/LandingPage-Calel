@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: rem(93);
+  padding: rem(28) rem(83);
+}
+
+.header__nav {
+}
+
+.header__menu {
+}
+
+.header__link {
+  color: $black;
+}
+
+.header__actions {
+  display: flex;
+}

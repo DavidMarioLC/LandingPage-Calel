@@ -1,0 +1,41 @@
+.description {
+  position: relative;
+  max-width: rem(384);
+  padding-left: rem(48);
+}
+
+.description__title {
+  font: $desktop-h5-black;
+  margin-bottom: rem(8);
+}
+
+.description__paragraph {
+  font: $desktop-body1-regular;
+}
+
+.description__number {
+  position: absolute;
+  left: 0;
+
+  display: block;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: $primary;
+  font: $desktop-body2-bold;
+  color: $white;
+
+  display: flex;
+  justify-content: center;
+}
+
+.description__number::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  z-index: -1;
+
+  width: 2px;
+  height: 140px;
+  background-color: $grey;
+}

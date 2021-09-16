@@ -1,0 +1,12 @@
+.menu {
+  display: flex;
+  gap: rem(16);
+  font: $desktop-body2-bold;
+}
+
+.menu__item {
+  flex: 1;
+}
+.menu__link {
+  color: $black;
+}
