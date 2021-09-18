@@ -1,0 +1,26 @@
+.management {
+}
+
+.management__content {
+  display: flex;
+  flex-direction: column;
+  gap: rem(24);
+  padding: 0 rem(16);
+}
+
+.management__img {
+  max-width: 100%;
+  height: auto;
+}
+.management__prevTitle {
+  color: lighten($color: $black, $amount: 50%);
+  font: $desktop-body3-semibold;
+}
+.management__title {
+  font: $mobile-h3;
+  margin: rem(24) 0;
+}
+
+.management__paragraph {
+  font: $desktop-body1-regular;
+}

@@ -1,0 +1,27 @@
+.trial {
+  margin-bottom: rem(128);
+}
+
+.trial__content {
+  padding: 0 rem(16);
+  text-align: center;
+}
+
+.trial__title {
+  font: $mobile-h1;
+  text-align: left;
+}
+.trial__img {
+  text-align: center;
+}
+
+.trial__subtitle {
+  text-align: left;
+  font: $mobile-h4;
+}
+
+.trial__paragraph {
+  text-align: left;
+  margin-top: rem(40);
+  font: $mobile-body1-medium;
+}

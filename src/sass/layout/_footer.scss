@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: rem(24);
+  padding: 0 rem(16);
+  margin-bottom: rem(40);
+}
+
+.footer h5 {
+  font: $desktop-h5-black;
+}
+
+.footer a {
+  font: $desktop-body2-regular;
+  color: $black;
+}

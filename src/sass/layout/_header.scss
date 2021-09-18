@@ -1,12 +1,15 @@
 .header {
+}
+
+.header__content {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  gap: rem(93);
-  padding: rem(28) rem(83);
+  justify-content: space-between;
+  padding: rem(24) rem(16);
 }
 
 .header__nav {
+  display: none;
 }
 
 .header__menu {
@@ -18,4 +21,8 @@
 
 .header__actions {
   display: flex;
+}
+
+.header__actions .btn--secondary {
+  display: none;
 }

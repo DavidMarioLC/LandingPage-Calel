@@ -1,0 +1,29 @@
+.programming {
+  margin: rem(64) 0;
+}
+
+.programming__content {
+  display: flex;
+  flex-direction: column;
+  gap: rem(24);
+  padding: 0 rem(16);
+}
+
+.programming__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.programming__prevTitle {
+  color: lighten($color: $black, $amount: 50%);
+  font: $desktop-body3-semibold;
+}
+
+.programming__title {
+  font: $mobile-h3;
+  margin: rem(24) 0;
+}
+
+.programming__paragraph {
+  font: $desktop-body1-regular;
+}

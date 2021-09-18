@@ -1,0 +1,50 @@
+.meet {
+  margin-bottom: rem(128);
+}
+
+.meet__content {
+  padding: 0 rem(16);
+}
+
+.meet__title {
+  text-align: center;
+  font: $mobile-h3;
+  margin-bottom: rem(40);
+}
+
+.meet__paragraph {
+  text-align: center;
+  font: $mobile-h4-regular;
+}
+
+.meet__cards {
+}
+
+.meet__card {
+  text-align: center;
+}
+
+.meet_card__img {
+  max-width: 100%;
+  margin: rem(40) 0;
+}
+
+.meet__card__title {
+  text-align: left;
+  font: $mobile-h5-black;
+}
+
+.meet__card__paragraph {
+  text-align: left;
+  font: $mobile-body1-regular;
+}
+
+.meet__actions {
+  display: flex;
+  margin-top: rem(40);
+}
+
+.meet__actions .btn {
+  text-align: center;
+  flex: 1;
+}

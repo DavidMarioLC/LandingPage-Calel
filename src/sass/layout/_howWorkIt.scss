@@ -1,0 +1,31 @@
+.howWorkIt {
+  padding: rem(64) 0;
+}
+
+.howWorkIt__content {
+  padding: 0 rem(16);
+}
+
+.howWorkIt__prevtitle {
+  text-align: center;
+  font: $desktop-body3-semibold;
+}
+
+.howWorkIt__title {
+  margin-top: rem(8);
+
+  text-align: center;
+  font: $mobile-h2;
+}
+
+.howWorkIt__image {
+  max-width: 100%;
+  height: auto;
+  margin: rem(64) 0;
+}
+
+.howWorkIt__descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

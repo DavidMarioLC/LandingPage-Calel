@@ -1,0 +1,33 @@
+.clients {
+  padding: rem(80) 0;
+  background: lighten($color: $grey, $amount: 17);
+}
+
+.clients__content {
+  padding: 0 rem(16);
+}
+
+.clients__title {
+  text-align: center;
+  font: $mobile-h5-black;
+}
+
+.clients__title span {
+  color: $primary;
+}
+
+.clients__img {
+  max-width: 100%;
+  height: auto;
+  filter: contrast(30%);
+}
+
+.clients__logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: rem(64);
+  place-items: center;
+  margin-top: rem(64);
+  margin-bottom: rem(80);
+}

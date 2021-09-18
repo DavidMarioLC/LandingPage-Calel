@@ -1,0 +1,39 @@
+.bitly {
+  margin: rem(64) 0;
+  position: relative;
+}
+
+.bitly__content {
+  display: flex;
+  flex-direction: column;
+  gap: rem(24);
+  padding: 0 rem(16);
+}
+
+.bitly__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bitly__prevTitle {
+  color: lighten($color: $black, $amount: 50%);
+  font: $desktop-body3-semibold;
+}
+
+.bitly__title {
+  font: $mobile-h4;
+  margin: rem(24) 0;
+}
+
+.bitly__team {
+  font: $desktop-h5-black;
+  color: $primary;
+}
+
+.bitly__decorator {
+  display: grid;
+  justify-items: flex-end;
+}
+
+.bitly__decorator__img {
+}

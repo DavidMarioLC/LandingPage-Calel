@@ -11,6 +11,7 @@
 
 .description__paragraph {
   font: $desktop-body1-regular;
+  // border-left: 2px solid $grey;
 }
 
 .description__number {
@@ -36,6 +37,6 @@
   z-index: -1;
 
   width: 2px;
-  height: 140px;
+  height: 100px;
   background-color: $grey;
 }

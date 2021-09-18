@@ -1,0 +1,24 @@
+.hero {
+  padding: rem(64) 0;
+}
+.hero__content {
+  padding: rem(24) rem(16);
+}
+
+.hero__image {
+  max-width: 100%;
+}
+
+.hero__title {
+  font: $mobile-h1;
+}
+
+.hero__title span {
+  color: $primary;
+}
+
+.hero__paragraph {
+  margin-top: rem(32);
+  margin-bottom: rem(24);
+  font: $mobile-body1-regular;
+}
