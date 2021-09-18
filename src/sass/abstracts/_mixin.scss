@@ -4,3 +4,8 @@
   $size: 16;
   @return math.div($value, $size) + rem;
 }
+
+@mixin wrapper {
+  margin: 0 auto;
+  @content;
+}

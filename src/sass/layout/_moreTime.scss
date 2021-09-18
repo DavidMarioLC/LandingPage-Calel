@@ -15,3 +15,12 @@
   margin-bottom: rem(48);
   font: $mobile-h4-regular;
 }
+
+@media screen and (min-width: 768px) {
+  .moreTime {
+    text-align: center;
+    @include wrapper {
+      max-width: 650px;
+    }
+  }
+}

@@ -25,3 +25,11 @@
   margin-top: rem(40);
   font: $mobile-body1-medium;
 }
+
+@media screen and (min-width: 768px) {
+  .trial {
+    @include wrapper {
+      max-width: 650px;
+    }
+  }
+}

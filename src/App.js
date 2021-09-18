@@ -65,7 +65,7 @@ function App() {
             </ul>
           </nav>
           <div className="header__actions">
-            <button className="btn btn--secondary">Iniciar sesión</button>
+            <button className="btn ">Iniciar sesión</button>
             <button className="btn btn--primary">Regístrese</button>
           </div>
           <div className="menu-icon header__menu">

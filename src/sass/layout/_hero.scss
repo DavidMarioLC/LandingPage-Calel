@@ -22,3 +22,12 @@
   margin-bottom: rem(24);
   font: $mobile-body1-regular;
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    text-align: center;
+    @include wrapper {
+      max-width: 650px;
+    }
+  }
+}

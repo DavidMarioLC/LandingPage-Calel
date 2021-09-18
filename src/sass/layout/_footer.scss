@@ -14,3 +14,11 @@
   font: $desktop-body2-regular;
   color: $black;
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    @include wrapper {
+      max-width: 650px;
+    }
+  }
+}

@@ -29,3 +29,12 @@
   flex-direction: column;
   gap: 24px;
 }
+
+@media screen and (min-width: 768px) {
+  .howWorkIt {
+    text-align: center;
+    @include wrapper {
+      max-width: 650px;
+    }
+  }
+}

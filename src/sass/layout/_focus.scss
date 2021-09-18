@@ -26,3 +26,11 @@
 .focus__paragraph {
   font: $desktop-body1-regular;
 }
+
+@media screen and (min-width: 768px) {
+  .focus {
+    @include wrapper {
+      max-width: 650px;
+    }
+  }
+}
