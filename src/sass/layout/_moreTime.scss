@@ -2,7 +2,6 @@
 }
 
 .moreTime__content {
-  padding: 0 rem(16);
   text-align: center;
 }
 
@@ -17,10 +16,4 @@
 }
 
 @media screen and (min-width: 768px) {
-  .moreTime {
-    text-align: center;
-    @include wrapper {
-      max-width: 650px;
-    }
-  }
 }

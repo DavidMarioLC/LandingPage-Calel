@@ -3,7 +3,6 @@
 }
 
 .meet__content {
-  padding: 0 rem(16);
 }
 
 .meet__title {
@@ -50,10 +49,4 @@
 }
 
 @media screen and (min-width: 768px) {
-  .meet {
-    text-align: center;
-    @include wrapper {
-      max-width: 650px;
-    }
-  }
 }

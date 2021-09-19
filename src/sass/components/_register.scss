@@ -1,4 +1,6 @@
 .input {
+  max-width: rem(320);
+  margin: 0 auto;
   position: relative;
   border: 1px solid $grey;
   border-radius: rem(40);
@@ -11,6 +13,7 @@
   font: $desktop-body3-regular;
   padding: rem(12) rem(24);
   box-sizing: border-box;
+  text-align: left;
 }
 
 .input__button {

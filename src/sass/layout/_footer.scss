@@ -1,9 +1,11 @@
 .footer {
+  padding: 0 rem(16);
+  margin-bottom: rem(40);
+}
+.footer__content {
   display: flex;
   flex-direction: column;
   gap: rem(24);
-  padding: 0 rem(16);
-  margin-bottom: rem(40);
 }
 
 .footer h5 {
@@ -16,9 +18,4 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
-    @include wrapper {
-      max-width: 650px;
-    }
-  }
 }

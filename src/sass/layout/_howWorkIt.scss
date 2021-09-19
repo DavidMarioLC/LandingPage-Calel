@@ -3,7 +3,6 @@
 }
 
 .howWorkIt__content {
-  padding: 0 rem(16);
 }
 
 .howWorkIt__prevtitle {
@@ -31,10 +30,4 @@
 }
 
 @media screen and (min-width: 768px) {
-  .howWorkIt {
-    text-align: center;
-    @include wrapper {
-      max-width: 650px;
-    }
-  }
 }
