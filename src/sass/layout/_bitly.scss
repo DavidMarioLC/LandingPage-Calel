@@ -39,3 +39,16 @@
 
 @media screen and (min-width: 768px) {
 }
+
+@media screen and (min-width: 1200px) {
+  @include layoutInvert("bitly", 0);
+
+  .bitly__content {
+    align-items: flex-start;
+  }
+
+  .bitly__title {
+    font: $desktop-h4;
+    margin: rem(24) 0;
+  }
+}

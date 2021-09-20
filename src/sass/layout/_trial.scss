@@ -4,14 +4,19 @@
 
 .trial__content {
   text-align: center;
+  display: flex;
+}
+
+.trial__description {
+}
+
+.trial__img {
+  text-align: center;
 }
 
 .trial__title {
   font: $mobile-h1;
   text-align: left;
-}
-.trial__img {
-  text-align: center;
 }
 
 .trial__subtitle {
@@ -26,4 +31,33 @@
 }
 
 @media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+  .trial__content {
+  }
+
+  .trial__description {
+  }
+
+  .trial__img {
+    order: 1;
+  }
+  .trial__description,
+  .trial__img {
+    flex: 1;
+  }
+
+  .trial__title {
+    font: $desktop-h1;
+    margin-bottom: rem(40);
+  }
+
+  .trial__subtitle {
+    font: $desktop-h5-medium;
+  }
+
+  .trial__paragraph {
+    font: $desktop-body1-medium;
+  }
 }

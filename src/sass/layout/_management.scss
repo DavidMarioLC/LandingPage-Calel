@@ -27,3 +27,18 @@
 
 @media screen and (min-width: 768px) {
 }
+
+@media screen and (min-width: 1200px) {
+  @include layoutInvert("management", 2);
+
+  .management__title {
+    font: $desktop-h3;
+  }
+
+  .management {
+    margin-bottom: rem(128);
+  }
+  .management ~ section {
+    margin-bottom: rem(128);
+  }
+}

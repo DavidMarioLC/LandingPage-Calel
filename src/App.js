@@ -79,32 +79,35 @@ function App() {
       <section className="hero" role="banner" aria-label="Hero">
         <div className="wrapper">
           <div className="hero__content">
-            <img
-              className="hero__image"
-              src={heroImage}
-              height="400"
-              width="486"
-              alt="Hero "
-              title="Hero "
-            />
-            <h1 className="hero__title">
-              Programación fácil con <span>anticipación</span>
-            </h1>
-            <p className="hero__paragraph">
-              Calel es su centro de programación de reuniones de manera
-              profesional y eficiente y elimina el problema del intercambio de
-              correos electrónicos para que pueda dedicar más tiempo a su
-              trabajo.
-            </p>
-            <div className="input">
-              <input
-                className="input__form"
-                type="text"
-                placeholder="Regístrese"
+            <figure className="hero__image">
+              <img
+                src={heroImage}
+                height="400"
+                width="486"
+                alt="Hero "
+                title="Hero "
               />
-              <button className="btn btn--dark input__button">
-                Regístrese
-              </button>
+            </figure>
+            <div className="hero__description">
+              <h1 className="hero__title">
+                Programación fácil con <span>anticipación</span>
+              </h1>
+              <p className="hero__paragraph">
+                Calel es su centro de programación de reuniones de manera
+                profesional y eficiente y elimina el problema del intercambio de
+                correos electrónicos para que pueda dedicar más tiempo a su
+                trabajo.
+              </p>
+              <div className="input">
+                <input
+                  className="input__form"
+                  type="text"
+                  placeholder="Regístrese"
+                />
+                <button className="btn btn--dark input__button">
+                  Regístrese
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -222,14 +225,15 @@ function App() {
             </p>
             <div className="meet__cards">
               <div className="meet__card">
-                <img
-                  className="meet_card__img"
-                  src={imageMeeting}
-                  width="386"
-                  height="346"
-                  alt="aplicaciones"
-                  title="aplicaciones"
-                />
+                <figure className="meet_card__img">
+                  <img
+                    src={imageMeeting}
+                    width="386"
+                    height="346"
+                    alt="aplicaciones"
+                    title="aplicaciones"
+                  />
+                </figure>
                 <h5 className="meet__card__title">
                   Reúnase de la forma que desee
                 </h5>
@@ -240,14 +244,15 @@ function App() {
                 </p>
               </div>
               <div className="meet__card">
-                <img
-                  className="meet_card__img"
-                  src={imageCordination}
-                  width="450"
-                  height="295"
-                  alt="aplicaciones"
-                  title="aplicaciones"
-                />
+                <figure className="meet_card__img">
+                  <img
+                    src={imageCordination}
+                    width="450"
+                    height="346"
+                    alt="aplicaciones"
+                    title="aplicaciones"
+                  />
+                </figure>
                 <h5 className="meet__card__title">
                   Reúnase de la forma que desee
                 </h5>
@@ -281,7 +286,9 @@ function App() {
       <section className="management">
         <div className="wrapper">
           <div className="management__content">
-            <img className="management__img" src={imageAutomatic} alt="" />
+            <figure className="management__img">
+              <img src={imageAutomatic} alt="" />
+            </figure>
             <div className="management__description">
               <span className="management__prevTitle">
                 GESTIÓN DE FLUJOS DE TRABAJO
@@ -303,20 +310,27 @@ function App() {
       <section className="programming">
         <div className="wrapper">
           <div className="programming__content">
-            <img className="programming__img" src={imageProgramming} alt="" />
+            <figure className="programming__img">
+              <img
+                src={imageProgramming}
+                alt="Imagen de la interfaz"
+                title="Imagen de la interfaz"
+                width="484"
+                height="339"
+              />
+            </figure>
             <div className="programming__description">
               <span className="programming__prevTitle">
                 PROGRAMACIÓN BAJO DEMANDA
               </span>
               <h3 className="programming__title">
-                Automatice recordatorios y seguimientos
+                Haga más contactos y reduzca las cancelaciones
               </h3>
               <p className="programming__paragraph">
-                Calel automatiza sus reuniones con flujos de trabajo y envía
-                desde correos electrónicos de recordatorio hasta notas de
-                agradecimiento, para que pueda centrarse en el trabajo que solo
-                usted puede realizar. Es como tener un asistente, incluso si
-                tiene un negocio unipersonal.
+                Los clientes potenciales pueden programar reuniones con tan solo
+                unos clics, siempre en el momento oportuno. Y se reducen las
+                cancelaciones porque la reprogramación es fácil, rápida y según
+                sus propias condiciones.
               </p>
             </div>
           </div>
@@ -325,7 +339,9 @@ function App() {
       <section className="focus">
         <div className="wrapper">
           <div className="focus__content">
-            <img className="focus__img" src={imageFocus} alt="" />
+            <figure className="focus__img">
+              <img src={imageFocus} alt="" />
+            </figure>
             <div className="focus__description">
               <span className="focus__prevTitle">EL ENFOQUE CORTÉS</span>
               <h3 className="focus__title">
@@ -343,7 +359,9 @@ function App() {
       <section className="bitly">
         <div className="wrapper">
           <div className="bitly__content">
-            <img className="bitly__img" src={imageBitly} alt="" />
+            <figure className="bitly__img">
+              <img src={imageBitly} alt="" />
+            </figure>
             <div className="bitly__description">
               <span className="bitly__prevTitle">BITLY</span>
               <h3 className="bitly__title">
@@ -367,15 +385,19 @@ function App() {
       <section className="trial">
         <div className="wrapper">
           <div className="trial__content">
-            <h2 className="trial__title">Pruebe Calel gratis</h2>
-            <img className="trial__img" src={trialDecoratorRegister} alt="" />
-            <p className="trial__subtitle">
-              Tras su prueba de 14 días de nuestro plan Profesional, disfrute de
-              la versión gratuita de Calendly para siempre.
-            </p>
-            <p className="trial__paragraph">
-              Para consultar sobre nuestros planes Enterprise, haga clic aquí.
-            </p>
+            <figure className="trial__img">
+              <img src={trialDecoratorRegister} alt="" />
+            </figure>
+            <div className="trial__description">
+              <h2 className="trial__title">Pruebe Calel gratis</h2>
+              <p className="trial__subtitle">
+                Tras su prueba de 14 días de nuestro plan Profesional, disfrute
+                de la versión gratuita de Calendly para siempre.
+              </p>
+              <p className="trial__paragraph">
+                Para consultar sobre nuestros planes Enterprise, haga clic aquí.
+              </p>
+            </div>
           </div>
         </div>
       </section>

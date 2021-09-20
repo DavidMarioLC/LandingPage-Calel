@@ -28,3 +28,22 @@
     text-align: center;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .hero__content {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: rem(24);
+  }
+  .hero__image {
+    order: 1;
+  }
+
+  .hero__title {
+    font: $desktop-h1;
+  }
+  .hero__paragraph {
+    font: $desktop-body1-regular;
+  }
+}

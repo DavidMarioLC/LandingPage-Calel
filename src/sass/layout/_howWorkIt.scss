@@ -39,3 +39,19 @@
     gap: 24px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .howWorkIt__descriptions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .howWorkIt__prevtitle {
+    font: $desktop-body3-semibold;
+  }
+
+  .howWorkIt__title {
+    font: $desktop-h2;
+  }
+}

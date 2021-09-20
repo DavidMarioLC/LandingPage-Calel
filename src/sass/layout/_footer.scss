@@ -10,6 +10,7 @@
 
 .footer h5 {
   font: $desktop-h5-black;
+  margin-bottom: rem(24);
 }
 
 .footer a {
@@ -18,4 +19,15 @@
 }
 
 @media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__content {
+    flex-direction: row;
+    gap: rem(48);
+  }
+
+  .footer__content div {
+    flex: 1;
+  }
 }

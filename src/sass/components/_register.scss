@@ -21,3 +21,9 @@
   right: 0;
   flex: 1;
 }
+
+@media screen and (min-width: 1200px) {
+  .input {
+    margin: 0;
+  }
+}

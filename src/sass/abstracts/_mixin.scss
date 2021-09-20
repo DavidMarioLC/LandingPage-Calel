@@ -4,3 +4,19 @@
   $size: 16;
   @return math.div($value, $size) + rem;
 }
+
+@mixin layoutInvert($section, $orderImage) {
+  .#{$section}__content {
+    flex-direction: row;
+    align-items: center;
+
+    .#{$section}__img {
+      order: $orderImage;
+    }
+
+    .#{$section}__img,
+    .#{$section}__description {
+      flex: 1;
+    }
+  }
+}

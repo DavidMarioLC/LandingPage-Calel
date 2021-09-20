@@ -49,4 +49,33 @@
 }
 
 @media screen and (min-width: 768px) {
+  .meet__actions {
+    justify-content: center;
+  }
+  .meet__actions .btn {
+    max-width: 160px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .meet__cards {
+    gap: rem(48);
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .meet__title {
+    font: $desktop-h2;
+    max-width: 70%;
+    margin: rem(120) auto rem(40);
+  }
+
+  .meet__paragraph {
+    font: $desktop-h5-medium;
+    max-width: 70%;
+    margin: 0 auto rem(40);
+  }
+  .meet__card__title {
+    margin-top: rem(80);
+  }
 }

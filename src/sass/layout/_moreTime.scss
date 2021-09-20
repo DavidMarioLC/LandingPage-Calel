@@ -17,3 +17,20 @@
 
 @media screen and (min-width: 768px) {
 }
+
+@media screen and (min-width: 1200px) {
+  .moreTime__title {
+    font: $desktop-h2;
+    max-width: 70%;
+    margin: 0 auto 40px;
+  }
+
+  .moreTime__paragraph {
+    font: $desktop-h5-medium;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .moreTime {
+    margin-bottom: rem(138);
+  }
+}

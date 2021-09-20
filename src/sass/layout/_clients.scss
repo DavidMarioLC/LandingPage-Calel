@@ -30,3 +30,14 @@
   margin-top: rem(64);
   margin-bottom: rem(80);
 }
+
+@media screen and (min-width: 1200px) {
+  .clients__logos {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .clients__title {
+    font: $desktop-h4;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
