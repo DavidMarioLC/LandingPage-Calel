@@ -2,11 +2,14 @@
   padding: rem(64) 0;
 }
 .hero__content {
+  text-align: center;
   padding: rem(24) 0;
 }
 
 .hero__image {
-  max-width: 100%;
+  img {
+    max-width: 100%;
+  }
 }
 
 .hero__title {
@@ -33,9 +36,14 @@
   .hero__content {
     text-align: left;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: rem(24);
   }
+  .hero__image,
+  .hero__description {
+    flex: 1;
+  }
+
   .hero__image {
     order: 1;
   }

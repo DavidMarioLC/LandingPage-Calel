@@ -25,9 +25,18 @@
   gap: rem(16);
 }
 
-.header__actions .btn--secondary {
+.header__actions :first-child:not(.btn--primary) {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
+  .header__actions :first-child:not(.btn--primary) {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header__nav {
+    display: block;
+  }
 }

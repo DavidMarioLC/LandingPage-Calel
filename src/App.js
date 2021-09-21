@@ -21,10 +21,6 @@ import trialDecoratorRegister from "./images/image-register.png";
 function App() {
   return (
     <>
-      {/* <button className="btn btn--primary">Regístrese</button>
-      <button className="btn btn--secondary">Iniciar sesión</button>
-      <button className="btn btn--dark">Iniciar sesión</button> */}
-
       <header className="header">
         <div className="wrapper">
           <div className="header__content">

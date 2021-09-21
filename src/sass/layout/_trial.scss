@@ -4,19 +4,23 @@
 
 .trial__content {
   text-align: center;
+
   display: flex;
+  flex-direction: column;
 }
 
 .trial__description {
 }
 
 .trial__img {
+  order: 2;
   text-align: center;
 }
 
 .trial__title {
   font: $mobile-h1;
   text-align: left;
+  margin-bottom: rem(40);
 }
 
 .trial__subtitle {

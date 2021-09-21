@@ -9,8 +9,11 @@
 }
 
 .programming__img {
-  max-width: 100%;
-  height: auto;
+  text-align: center;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .programming__prevTitle {

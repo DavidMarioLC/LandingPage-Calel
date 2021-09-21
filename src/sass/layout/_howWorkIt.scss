@@ -3,6 +3,7 @@
 }
 
 .howWorkIt__content {
+  text-align: center;
 }
 
 .howWorkIt__prevtitle {
@@ -23,21 +24,12 @@
   margin: rem(64) 0;
 }
 
-@media screen and (min-width: 768px) {
-  .howWorkIt__content {
-    text-align: center;
-  }
-
-  .howWorkIt__descriptions {
-    text-align: left;
-  }
-
-  .howWorkIt__descriptions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-  }
+.howWorkIt__descriptions {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 
 @media screen and (min-width: 1200px) {
