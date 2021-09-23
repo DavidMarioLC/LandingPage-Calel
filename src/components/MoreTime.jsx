@@ -1,6 +1,6 @@
 export default function MoreTime() {
   return (
-    <section className="moreTime" aria-label="moreTime">
+    <section id="Caracteristicas" className="moreTime" aria-label="moreTime">
       <div className="wrapper">
         <div className="moreTime__content">
           <h2 className="moreTime__title">

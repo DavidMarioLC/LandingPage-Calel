@@ -1,3 +1,4 @@
+import React, { useRef } from "react";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
 import Button from "./Button";
@@ -5,6 +6,7 @@ import Menu from "./Menu";
 import logoImage from "../images/logo.svg";
 
 export default function Header() {
+  const menu = useRef(null);
   const logoProps = {
     logo: logoImage,
     height: "36",
@@ -14,8 +16,19 @@ export default function Header() {
   };
 
   const itemsProps = {
-    items: ["Particulares", "Equipos", "Producto", "Precios", "Recursos"],
+    items: [
+      "Empresas",
+      "Funcionamiento",
+      "Reuniones",
+      "Caracteristicas",
+      "Pruébalo",
+    ],
+    menu,
   };
+
+  function showMenu() {
+    menu.current.classList.toggle("header__nav--active");
+  }
 
   return (
     <header className="header">
@@ -27,7 +40,7 @@ export default function Header() {
             <Button value="Iniciar sesión" />
             <Button value="Registrese" className="primary" />
           </div>
-          <Menu />
+          <Menu showMenu={showMenu} />
         </div>
       </div>
     </header>

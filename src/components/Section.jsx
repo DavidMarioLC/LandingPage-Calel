@@ -10,7 +10,7 @@ export default function Section({
       <div className="wrapper">
         <div className={`${className}__content`}>
           <figure className={`${className}__img`}>
-            <img src={image} alt="" />
+            <img src={image} alt={title} width="" height="" />
           </figure>
           <div className={`${className}__description`}>
             <span className={`${className}__prevTitle`}>{prevTitle}</span>

@@ -11,12 +11,12 @@ export default function Footer() {
   };
 
   return (
-    <footer className="footer">
+    <footer className="footer ">
       <div className="wrapper">
         <div className="footer__content">
           <Logo {...logoProps} />
           <div className="footer__about">
-            <h5>Acerca de</h5>
+            <h4>Acerca de</h4>
             <ul>
               <li>
                 <a href="#acerca-de-calendry">Acerca de Calendry</a>
@@ -41,7 +41,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer__assistance">
-            <h5>Asistencia</h5>
+            <h4>Asistencia</h4>
             <ul>
               <li>
                 <a href="#centro-de-ayuda">Centro de ayuda</a>
@@ -52,7 +52,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer__development">
-            <h5>Desarrolladores</h5>
+            <h4>Desarrolladores</h4>
             <ul>
               <li>
                 <a href="#herramientas-de-desarrollo">
@@ -62,7 +62,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer__solutions">
-            <h5>Soluciones</h5>
+            <h4>Soluciones</h4>
             <ul>
               <li>
                 <a href="#exito-cliente">Éxito de clientes</a>
@@ -82,13 +82,13 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer__funcionesPopulares">
-            <h5>Funciones populares</h5>
+            <h4>Funciones populares</h4>
             <ul>
               <li>
                 <a href="#exito-cliente">Éxito de clientes</a>
               </li>
               <li>
-                <a href="ventas">Ventas</a>
+                <a href="#ventas">Ventas</a>
               </li>
               <li>
                 <a href="#contratacion">Contratación</a>

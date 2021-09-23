@@ -1,4 +1,8 @@
 .header {
+  top: 0;
+  position: sticky;
+  backdrop-filter: blur(10px);
+  z-index: 1;
 }
 
 .header__content {
@@ -7,13 +11,33 @@
   justify-content: space-between;
 
   padding: rem(24) 0;
+
+  position: relative;
 }
 
 .header__nav {
-  display: none;
+  padding: rem(24) rem(24);
+
+  position: fixed;
+
+  background: rgba($color: #ffffff, $alpha: 0.9);
+  height: 100vh;
+
+  top: 96px;
+  bottom: 0;
+  left: -100%;
+  z-index: 1;
+
+  transition: left 250ms ease;
 }
 
 .header__menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__nav--active {
+  left: 0;
 }
 
 .header__link {
@@ -38,5 +62,13 @@
 @media screen and (min-width: 992px) {
   .header__nav {
     display: block;
+  }
+
+  .header__nav {
+    all: unset;
+  }
+
+  .header__menu {
+    flex-direction: row;
   }
 }

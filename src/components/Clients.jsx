@@ -7,13 +7,13 @@ import gartnerImageLogo from "../images/logo-cliente-gartner.png";
 import twilioImageLogo from "../images/logo-cliente-twilio.png";
 export default function Clients() {
   return (
-    <section className="clients" aria-label="Clients">
+    <section id="Empresas" className="clients" aria-label="Clients">
       <div className="wrapper">
         <div className="clients__content">
-          <h5 className="clients__title">
+          <h2 className="clients__title">
             Programación simplificada para más de <span>200 000 000</span>{" "}
             reuniones
-          </h5>
+          </h2>
           <div className="clients__logos">
             <img
               className="clients__img"

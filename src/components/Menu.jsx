@@ -1,11 +1,8 @@
 import React from "react";
 
-export default function Menu() {
-  function handleMenu(e) {
-    console.log(e);
-  }
+export default function Menu({ showMenu }) {
   return (
-    <div onClick={handleMenu} className="menu-icon header__menu">
+    <div onClick={showMenu} className="menu-icon ">
       <span className="menu-icon__stick"></span>
     </div>
   );

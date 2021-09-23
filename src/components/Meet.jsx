@@ -3,7 +3,7 @@ import imageCordination from "../images/image-cordination.png";
 
 export default function Meet() {
   return (
-    <section className="meet" aria-label="meet">
+    <section id="Reuniones" className="meet" aria-label="meet">
       <div className="wrapper">
         <div className="meet__content">
           <h3 className="meet__title">
@@ -24,9 +24,9 @@ export default function Meet() {
                   title="aplicaciones"
                 />
               </figure>
-              <h5 className="meet__card__title">
+              <h4 className="meet__card__title">
                 Reúnase de la forma que desee
-              </h5>
+              </h4>
               <p className="meet__card__paragraph">
                 Muestre disponibilidad en su horario solo los días y las horas
                 que se adapten a usted. Cuando su invitado elija la hora de la
@@ -43,9 +43,9 @@ export default function Meet() {
                   title="aplicaciones"
                 />
               </figure>
-              <h5 className="meet__card__title">
+              <h4 className="meet__card__title">
                 Reúnase de la forma que desee
-              </h5>
+              </h4>
               <p className="meet__card__paragraph">
                 Muestre disponibilidad en su horario solo los días y las horas
                 que se adapten a usted. Cuando su invitado elija la hora de la

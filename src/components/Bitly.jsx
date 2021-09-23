@@ -16,7 +16,7 @@ export default function Bitly() {
               un calendario lleno de clientes potenciales con los que hablar,
               sino que estos clientes potenciales asisten más a las reuniones.
             </h3>
-            <h5 className="bitly__team">Dave Rotholz</h5>
+            <h4 className="bitly__team">Dave Rotholz</h4>
             <div className="bitly__decorator">
               <img
                 className="bitly__decorator__img"
