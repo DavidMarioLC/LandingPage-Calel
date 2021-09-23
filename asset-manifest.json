@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/LandingPage-Calel/static/css/main.c080baf5.chunk.css",
+    "main.js": "/LandingPage-Calel/static/js/main.6a572354.chunk.js",
+    "main.js.map": "/LandingPage-Calel/static/js/main.6a572354.chunk.js.map",
+    "runtime-main.js": "/LandingPage-Calel/static/js/runtime-main.80baa5c9.js",
+    "runtime-main.js.map": "/LandingPage-Calel/static/js/runtime-main.80baa5c9.js.map",
+    "static/js/2.c52e8a68.chunk.js": "/LandingPage-Calel/static/js/2.c52e8a68.chunk.js",
+    "static/js/2.c52e8a68.chunk.js.map": "/LandingPage-Calel/static/js/2.c52e8a68.chunk.js.map",
+    "static/js/3.01bddb6f.chunk.js": "/LandingPage-Calel/static/js/3.01bddb6f.chunk.js",
+    "static/js/3.01bddb6f.chunk.js.map": "/LandingPage-Calel/static/js/3.01bddb6f.chunk.js.map",
+    "index.html": "/LandingPage-Calel/index.html",
+    "static/css/main.c080baf5.chunk.css.map": "/LandingPage-Calel/static/css/main.c080baf5.chunk.css.map",
+    "static/js/2.c52e8a68.chunk.js.LICENSE.txt": "/LandingPage-Calel/static/js/2.c52e8a68.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/LandingPage-Calel/static/media/Inter-SemiBold.c6588ec1.ttf",
+    "static/media/hero-image.2d691ec6.svg": "/LandingPage-Calel/static/media/hero-image.2d691ec6.svg",
+    "static/media/image-automatice.9dbb4132.png": "/LandingPage-Calel/static/media/image-automatice.9dbb4132.png",
+    "static/media/image-calendly.1a2251d2.png": "/LandingPage-Calel/static/media/image-calendly.1a2251d2.png",
+    "static/media/image-cordination.fd22ec57.png": "/LandingPage-Calel/static/media/image-cordination.fd22ec57.png",
+    "static/media/image-girl.6fb094ef.png": "/LandingPage-Calel/static/media/image-girl.6fb094ef.png",
+    "static/media/image-meeting.0e9e66aa.png": "/LandingPage-Calel/static/media/image-meeting.0e9e66aa.png",
+    "static/media/image-phone.31c36de0.png": "/LandingPage-Calel/static/media/image-phone.31c36de0.png",
+    "static/media/image-programacion.64296f4c.png": "/LandingPage-Calel/static/media/image-programacion.64296f4c.png",
+    "static/media/logo.f237a94d.svg": "/LandingPage-Calel/static/media/logo.f237a94d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80baa5c9.js",
+    "static/js/2.c52e8a68.chunk.js",
+    "static/css/main.c080baf5.chunk.css",
+    "static/js/main.6a572354.chunk.js"
+  ]
+}
